@@ -294,6 +294,8 @@ new_session_screenshot <- function(
   p
 }
 
+#' @export
+find_phantom <- function() TRUE
 
 knit_print.webshot <- function(x, ...) {
   lapply(x, function(filename) {
